@@ -1,7 +1,7 @@
 @font-face {
     font-family: Roboto;
     font-weight: normal;
-    src: url(Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
 
@@ -11,22 +11,11 @@ body {
     position: relative;
 }
 
-/*html {
-    height: 100%;
-}*/
-
-/*body {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}*/
 
 @font-face {
     font-family: Roboto;
     font-weight: bold;
-    src: url(Roboto-Bold.ttf);
+    src: url(fonts/Roboto-Bold.ttf);
 }
 
 .left {
@@ -332,29 +321,23 @@ body {
     .left {
         padding-left: 40px;
     }
-    /*.disabledr{
-        display: none;
-    }*/
+
     .right {
-        
+
         -webkit-box-flex: 0;
         -ms-flex: 0 0 55%;
         flex: 0 0 55%;
         /*max-width: 55%;*/
         position: absolute;
-        
+
         opacity: 0;
         display: none;
         z-index: 1;
         left: 100%;
         padding-top: 88px;
-        
+
     }
 
-    /* .row,
-    .left .h100{
-        height: auto;
-    }*/
 
     .jokeRight .jokedate {
         margin-top: 0;
@@ -368,33 +351,38 @@ body {
         font-size: 14px;
         line-height: 20px
     }
-    .rop{
+
+    .rop {
         opacity: 100%;
         left: 45%;
     }
+
     .ractive {
-display: block;
-       /*opacity: 100%;*/
-        /*left: 45%;*/
+        display: block;
+
         min-height: 100%;
     }
 }
 
-@media (max-width: 580px){
-    .searchfield{
+@media (max-width: 580px) {
+    .searchfield {
         margin: 0;
     }
-    .rop{
+
+    .rop {
         left: 0;
     }
-    .left{
+
+    .left {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .iconwrap{
+
+    .iconwrap {
         margin-left: 0;
     }
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
